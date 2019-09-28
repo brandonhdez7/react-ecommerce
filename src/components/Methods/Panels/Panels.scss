@@ -1,0 +1,38 @@
+.collapsible {
+    display: none;
+  }
+  
+  .collapsible.open {
+    display: block;
+  }
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.panelButtons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+.panelInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.panelButton{
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(26,15,75);
+    background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+    color: white;
+}

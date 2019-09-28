@@ -1,0 +1,319 @@
+.methodMain{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px; 
+}
+.methodInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 92vh;
+}
+.method_info_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.method_info_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.method_info_right p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.methodStarting{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+}
+
+.methodMain h1{
+    letter-spacing: 5px;
+}
+
+.method_info_left li{
+    font-size: 20px;
+    letter-spacing: 5px;
+    width: 80%;
+    padding: 5px 0px;
+}
+
+.methodButton{
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.methodButton button{
+    padding: 10px 30px;
+    cursor: pointer;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgb(26,15,75);
+    background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+    color: white;
+}
+.method_link{
+    padding: 10px 10px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(26,15,75);
+    background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+    color: white;
+}
+
+
+/* method list */
+
+.methodRoast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+}
+
+.roastImg{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roastImg img{
+    width: 55%;
+
+}
+
+.roastInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roastInfo h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.roastInfo li{
+    font-size: 15px;
+    letter-spacing: 5px;
+    width: 80%;
+}
+// list moethods
+.favorite{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+}
+
+.methodList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.methodBox{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.methodBox img{
+    width: 20%;
+}
+.methodBox h3, .methodBox p{
+    letter-spacing: 5px;
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+}
+
+@media (max-width: 480px) {
+    .methodMain{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 70px; 
+    }
+    .methodInfo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+    }
+    .method_info_left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .method_info_right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .method_info_right p{
+        font-size: 15px;
+        letter-spacing: 5px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .methodStarting{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+    }
+    
+    .methodMain h1{
+        letter-spacing: 5px;
+    }
+    
+    .method_info_left li{
+        font-size: 15px;
+        letter-spacing: 5px;
+        width: 80%;
+        padding: 5px 0px;
+    }
+    
+    .methodButton{
+        padding: 50px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .methodButton button{
+        padding: 10px 30px;
+        cursor: pointer;
+        letter-spacing: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+        color: white;
+    }
+    
+    
+    /* method list */
+    
+    .methodRoast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: max-content;
+    }
+    
+    .roastImg{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .roastImg img{
+        width: 60%;
+    
+    }
+    
+    .roastInfo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .roastInfo h2{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    
+    .roastInfo li{
+        font-size: 15px;
+        letter-spacing: 5px;
+        width: 80%;
+    }
+    
+    .methodList{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .methodBox{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+    .methodBox img{
+        width: 20%;
+    }
+    .methodBox h3, .methodBox p{
+        letter-spacing: 5px;
+        padding: 0px;
+        margin: 0px;
+        font-style: italic;
+    }
+
+
+}

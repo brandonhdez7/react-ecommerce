@@ -1,0 +1,86 @@
+    .checkout button{
+        padding: 10px 30px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        background: rgb(26,15,75);
+        background: linear-gradient(180deg, rgba(26,15,75,1) 0%, rgba(66,66,66,1) 0%);
+        color: white;
+    }
+    .checkoutPage{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 91vh;
+    }
+    .checkoutPage h3{
+        letter-spacing: 5px;
+        margin: 5px 0px;
+    }
+    .checkoutPage .quantity{ //add delete quantity
+        padding: 5px 10px 5px 10px;
+        border-radius: 2px;
+        border: none;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        background: rgb(80,80,80);
+        background: linear-gradient(180deg, rgba(80,80,80,1) 100%, rgba(59,59,59,1) 100%);
+        color: white;
+        margin: 10px 5px 0px 5px;
+        transition: all 0.3s;
+        outline: none;
+        cursor: pointer;
+    }
+    .purchase{
+        padding: 10px 30px 10px 30px;
+        border-radius: 2px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        background: rgb(80,80,80);
+        background: linear-gradient(180deg, rgba(80,80,80,1) 100%, rgba(59,59,59,1) 100%);
+        color: white;
+        margin: 30px 5px 5px 5px;
+        transition: all 0.3s;
+        outline: none;
+        cursor: pointer; 
+    }
+    .checkout_left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        border: 2px solid black;
+        margin: 30px;
+    }
+    .cardInput{
+        width: 450px;
+        margin: 10px;
+        padding: 5px; 
+        border: 2px solid black;
+    }
+    .checkout_right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        border: 2px solid black;
+        margin: 30px;
+    }
+    .checkout_right_box{
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid black;
+        margin: 5px 0px;
+    }
+    .checkout_right_box img{
+        width: 40px;
+    }
